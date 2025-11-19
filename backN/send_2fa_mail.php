@@ -15,8 +15,8 @@ try {
   $mail->isSMTP();
   $mail->Host = 'smtp.example.com'; 
   $mail->SMTPAuth = true;
-  $mail->Username = 'afiqnashriq03@gmail.com'; 
-  $mail->Password = 'jrit zcol qljv qnpp';   
+  $mail->Username = 'your_email'; 
+  $mail->Password = 'your_app_password';   
   $mail->SMTPSecure = 'tls';
   $mail->Port = 587;
 
